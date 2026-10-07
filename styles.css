@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+	padding: 10px;
+    box-shadow: 10px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+}
+
+/*  
+   =================================
+    Disposition des éléments du main
+   ==================================
+*/
+
+h1 {
+	font-size: 3rem;
+	font-weight: 900;
+	font-family: "Manrope";
+	line-height: 2;
+}
+
+.hero {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2vw;
+	gap: 10px;
+}
+
+.test02 {
+	line-height: 1;
+	margin-bottom: 10px;
+}
+
+.btnprojects,
+.btncontact {
+	width: 10%;
+	padding: 5px;
+	border-radius: 999px;
+	box-shadow: 5px 3px;
+}
+
+.btncontact {
+	margin-top: -5px;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+}
